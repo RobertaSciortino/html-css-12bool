@@ -11,7 +11,7 @@
 
 [class*="col-"] {
     float: left;
-    height: 100px;
+    min-height: 100px;
 }
 
 /* class .col da 1 a 12 */
