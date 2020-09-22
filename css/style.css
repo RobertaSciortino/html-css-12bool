@@ -67,3 +67,38 @@
 .brown {
     background-color: #AB4D00;
 }
+
+
+.darkbrown.col-1.col-offset-3:first-child {
+    animation: dance-legs 1s infinite step-start;
+}
+
+@keyframes dance-legs {
+0% {margin-left: calc(( 100% / 12 ) * 3);}
+50% {margin-left: calc(( 100% / 12 ) * 4);}
+100% {margin-left: calc(( 100% / 12 ) * 3);}
+}
+
+.container:last-child > div:nth-child(2),
+.container:last-child > div:nth-child(5) {
+    animation: shadow 1s infinite step-start;
+}
+
+@keyframes shadow {
+    0% { background-color: #000;}
+    50% {background-color: #AB4D00;}
+    100% { background-color: #000;}
+
+}
+
+.container:last-child > div:nth-child(3),
+.container:last-child > div:nth-child(6) {
+    animation: paw 1s infinite step-start;
+}
+
+@keyframes paw {
+    0% { background-color: #AB4D00;}
+    50% {background-color: #000;}
+    100% { background-color: #AB4D00;}
+
+}
