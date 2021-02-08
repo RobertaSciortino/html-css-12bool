@@ -71,6 +71,7 @@
 
 .darkbrown.col-1.col-offset-3:first-child {
     animation: dance-legs 1s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes dance-legs {
@@ -82,6 +83,7 @@
 .container:last-child > div:nth-child(2),
 .container:last-child > div:nth-child(5) {
     animation: shadow 1s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes shadow {
@@ -94,6 +96,7 @@
 .container:last-child > div:nth-child(3),
 .container:last-child > div:nth-child(6) {
     animation: paw 1s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes paw {
@@ -105,6 +108,7 @@
 
 .container:nth-child(6) > .black.col-1.col-offset-2 {
     animation: eye-top 3s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes eye-top {
@@ -115,6 +119,7 @@
 
 .container:nth-child(7) > .black.col-1{
     animation: eye-bottom 3s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes eye-bottom {
@@ -125,6 +130,7 @@
 
 .container:first-child > .red.col-1.col-offset-1 {
     animation: crest-top 1s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes crest-top {
@@ -135,6 +141,7 @@
 
 .container:nth-child(2) > .red.col-4.col-offset-2 {
     animation: crest-bottom 1s infinite step-start;
+    animation-delay: 3s;
 }
 
 @keyframes crest-bottom {
